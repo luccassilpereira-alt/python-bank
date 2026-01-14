@@ -1,24 +1,31 @@
 🏦 Python Bank
 
-Projeto desenvolvido em Python com o objetivo de praticar lógica de programação, estruturas de controle e simulação de um sistema bancário simples em terminal.
+Projeto desenvolvido em Python com foco em aprendizado de lógica de programação, estruturas de controle e simulação de um sistema bancário simples via terminal (CLI).
 
-O Python Bank permite que o usuário faça login, consulte saldo, realize depósitos e saques, tudo por meio de um menu interativo.
+O Python Bank permite que o usuário acesse uma conta fictícia, consulte saldo, realize depósitos e saques por meio de um menu interativo.
+
+🎯 Objetivo do projeto
+
+Este projeto foi criado com o objetivo de:
+Praticar lógica de programação em Python
+Aplicar estruturas condicionais e laços de repetição
+Simular um sistema real de forma simples
+Desenvolver um projeto para portfólio no GitHub
 
 🚀 Funcionalidades
 🔐 Login com senha
 💰 Consulta de saldo
 ➕ Depósito de valores
 ➖ Saque com validação de saldo
-📋 Menu interativo em loop
-🚪 Encerramento seguro do sistema
-
+📋 Menu interativo
+🔁 Sistema em loop até o usuário sair
 
 🧠 Conceitos aplicados
 
 Variáveis e tipos de dados (int, float, bool)
 Estruturas condicionais (if, elif, else)
-Laços de repetição (while True)
-Controle de fluxo com continue e break
+Laço de repetição (while True)
+Controle de fluxo (continue e break)
 Entrada e saída de dados (input() / print())
 Formatação de valores monetários
 Simulação de autenticação simples
@@ -28,41 +35,42 @@ Simulação de autenticação simples
 Python 3
 Execução via terminal (CLI)
 Editor recomendado: VS Code
+Versionamento com Git/GitHub
 
 ▶️ Como executar o projeto
 
 Certifique-se de ter o Python instalado:
+
 python --version
 
-Clone este repositório:
-git clone https://github.com/seu-usuario/python-bank.git
+Clone o repositório:
+git clone https://github.com/luccassilpereira-alt/python-bank.git
 
 Acesse a pasta do projeto:
 cd python-bank
 
-Execute o arquivo:
+Execute o programa:
+
 python main.py
 
-🔑 Credenciais de acesso (para teste)
-Senha: 1234
+🔑 Dados para teste
+Senha de acesso: 1234
 Saldo inicial: R$ 1000,00
-⚠️ Obs: Senha fixa apenas para fins educacionais.
+⚠️ A senha é fixa apenas para fins educacionais.
 
-
-📈 Melhorias futuras (em desenvolvimento)
-
+📈 Próximas melhorias (em desenvolvimento)
+Organização do código em funções
 Persistência de dados (salvar saldo em arquivo)
-Cadastro de usuários
-Tentativas limitadas de login
 Histórico de transações
-Uso de funções para melhor organização do código
-Interface gráfica (GUI) ou versão web
+Limite de tentativas de login
+Validação mais robusta de entradas
 
 👨‍💻 Sobre o autor
 
-Projeto desenvolvido por Lucas, estudante em transição para a área de TI, com foco em desenvolvimento e aprendizado contínuo.
-Este projeto faz parte do meu portfólio de estudos em Python.
+Projeto desenvolvido por Lucas, estudante em transição para a área de TI, com foco em aprendizado contínuo e desenvolvimento em Python.
+
+Este projeto faz parte do meu portfólio de estudos.
 
 📌 Observação
 
-Este é um projeto educacional, criado com o objetivo de aprendizado e prática de programação em Python.
+Este é um projeto educacional, desenvolvido com fins de aprendizado e prática de programação.
